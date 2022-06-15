@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.right-nav button {
+  width: 6rem;
+  height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

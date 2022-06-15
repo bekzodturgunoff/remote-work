@@ -23,7 +23,7 @@ export default function Hero() {
             <img src="./imgs/client-logo/client-maker.svg" alt="logo-maker" />
           </div>
         </div>
-        <div className="hero-img left-hero">
+        <div className="hero-img right-hero">
           <img src="./imgs/image-hero-desktop.png" alt="hero-image" />
         </div>
       </div>

@@ -1,3 +1,8 @@
-.hero-texts {
-  background-color: red;
+.hero-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.right-hero img {
+  width: 40rem;
 }
