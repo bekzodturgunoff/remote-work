@@ -1,7 +1,12 @@
+:root {
+  --font-one: "Epilogue", sans-serif;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  font-family: var(--font-one);
 }
 
 .left-nav {
@@ -19,6 +24,15 @@ nav {
 .right-nav button {
   width: 6rem;
   height: 2rem;
+  border-radius: 8px;
+  background-color: #fff;
+  border: none;
+  font-family: var(--font-one);
+  cursor: pointer;
+}
+
+.right-nav button:hover {
+  border: 1px solid;
 }
 
 a {

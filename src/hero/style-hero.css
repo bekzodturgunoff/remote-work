@@ -1,8 +1,57 @@
+:root {
+  --font-one: "Epilogue", sans-serif;
+}
+
 .hero-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 8rem;
 }
 .right-hero img {
-  width: 40rem;
+  width: 28rem;
+}
+
+.left-hero {
+  font-family: var(--font-one);
+  width: 460px;
+  margin-top: 8rem;
+}
+.left-hero h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.left-hero p {
+  font-weight: 500;
+  margin-top: 3rem;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.5rem;
+}
+
+.left-hero button {
+  background-color: #000;
+  color: #fff;
+  width: 9rem;
+  height: 2.8rem;
+  border-radius: 8px;
+  font-family: var(--font-one);
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.left-hero button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.left-hero button:active {
+  transform: scale(0.98);
+}
+
+.left-logos-hero {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
