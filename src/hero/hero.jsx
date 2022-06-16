@@ -1,4 +1,9 @@
 import "./style-hero.css";
+import logoDatabiz from "../../imgs/client-logo/client-databiz.svg";
+import logoAudiophile from "../../imgs/client-logo/client-audiophile.svg";
+import logoMeet from "../../imgs/client-logo/client-meet.svg";
+import logoMaker from "../../imgs/client-logo/client-maker.svg";
+import heroImg from "../../imgs/image-hero-desktop.png";
 export default function Hero() {
   return (
     <div className="Hero-app">
@@ -11,20 +16,14 @@ export default function Hero() {
           </p>
           <button>Learn more</button>
           <div className="hero-left-logos left-logos-hero">
-            <img
-              src="../imgs/client-logo/client-databiz.svg"
-              alt="logo-databiz"
-            />
-            <img
-              src="../imgs/client-logo/client-audiophile.svg"
-              alt="logo-audiophile"
-            />
-            <img src="../imgs/client-logo/client-meet.svg" alt="logo-meet" />
-            <img src="../imgs/client-logo/client-maker.svg" alt="logo-maker" />
+            <img src={logoDatabiz} alt="logo-databiz" />
+            <img src={logoAudiophile} alt="logo-audiophile" />
+            <img src={logoMeet} alt="logo-meet" />
+            <img src={logoMaker} alt="logo-maker" />
           </div>
         </div>
         <div className="hero-img right-hero">
-          <img src="../imgs/image-hero-desktop.png" alt="hero-image" />
+          <img src={heroImg} alt="hero-image" />
         </div>
       </div>
     </div>

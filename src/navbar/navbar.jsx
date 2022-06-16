@@ -1,10 +1,11 @@
 import "./style-navbar.css";
+import logo from "../../imgs/logo.svg";
 export default function Navbar() {
   return (
     <div>
       <nav>
         <div className="left-nav">
-          <img src="../imgs/logo.svg" alt="logo_snap" />
+          <img src={logo} alt="logo_snap" />
           {/* it won't be a link */}
           <a href="#">Features</a>
           <a href="#">Company</a>
