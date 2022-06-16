@@ -11,20 +11,17 @@ export default function Hero() {
           </p>
           <button>Learn more</button>
           <div className="hero-left-logos left-logos-hero">
+            <img src="imgs/client-logo/client-databiz.svg" alt="logo-databiz" />
             <img
-              src="./imgs/client-logo/client-databiz.svg"
-              alt="logo-databiz"
-            />
-            <img
-              src="./imgs/client-logo/client-audiophile.svg"
+              src="imgs/client-logo/client-audiophile.svg"
               alt="logo-audiophile"
             />
-            <img src="./imgs/client-logo/client-meet.svg" alt="logo-meet" />
-            <img src="./imgs/client-logo/client-maker.svg" alt="logo-maker" />
+            <img src="imgs/client-logo/client-meet.svg" alt="logo-meet" />
+            <img src="imgs/client-logo/client-maker.svg" alt="logo-maker" />
           </div>
         </div>
         <div className="hero-img right-hero">
-          <img src="./imgs/image-hero-desktop.png" alt="hero-image" />
+          <img src="imgs/image-hero-desktop.png" alt="hero-image" />
         </div>
       </div>
     </div>
