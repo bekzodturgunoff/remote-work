@@ -4,7 +4,7 @@ export default function Navbar() {
     <div>
       <nav>
         <div className="left-nav">
-          <img src="imgs/logo.svg" alt="logo_snap" />
+          <img src="../imgs/logo.svg" alt="logo_snap" />
           {/* it won't be a link */}
           <a href="#">Features</a>
           <a href="#">Company</a>
