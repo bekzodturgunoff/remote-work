@@ -19,6 +19,19 @@ nav {
 .right-nav {
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.github {
+  font-size: 20px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .right-nav button {
