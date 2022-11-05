@@ -3,6 +3,7 @@ import logoAudiophile from "../../imgs/client-logo/client-audiophile.svg";
 import logoMeet from "../../imgs/client-logo/client-meet.svg";
 import logoMaker from "../../imgs/client-logo/client-maker.svg";
 import heroImg from "../../imgs/image-hero-desktop.png";
+import heroImgMobile from "../../imgs/image-hero-mobile.png";
 import "../App.css";
 export default function Hero() {
   return (
@@ -22,8 +23,11 @@ export default function Hero() {
             <img src={logoMaker} alt="logo-maker" />
           </div>
         </div>
-        <div className="hero-img right-hero">
+        <div className="hero-img right-hero desktop">
           <img src={heroImg} alt="hero-image" />
+        </div>
+        <div className="hero-img right-hero mobile">
+          <img src={heroImgMobile} alt="hero-image" />
         </div>
       </div>
     </div>
