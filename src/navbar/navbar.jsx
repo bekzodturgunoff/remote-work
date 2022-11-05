@@ -1,8 +1,8 @@
-import "./style-navbar.css";
 import { useState, useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
 import { supabase } from "./client";
 import logo from "../../imgs/logo.svg";
+import "../App.css";
 
 function Navbar() {
   const [user, setUser] = useState(null);
@@ -31,8 +31,12 @@ function Navbar() {
         <nav>
           <div className="left-nav">
             <img src={logo} alt="logo_snap" />
-            <a href="#">Features</a>
-            <a href="#">Company</a>
+            <ul>
+              <a href="#">Features</a>
+              <a href="#">Company</a>
+              <a href="#">Careers</a>
+              <a href="#">About</a>
+            </ul>
           </div>
           <div className="right-nav">
             <p>Hello, {user.email}</p>
@@ -50,8 +54,12 @@ function Navbar() {
       <nav>
         <div className="left-nav">
           <img src={logo} alt="logo_snap" />
-          <a href="#">Features</a>
-          <a href="#">Company</a>
+          <ul>
+            <a href="#">Features</a>
+            <a href="#">Company</a>
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+          </ul>
         </div>
         <div className="right-nav">
           <button onClick={signInWithGithub}>
