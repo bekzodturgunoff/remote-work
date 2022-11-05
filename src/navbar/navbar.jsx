@@ -40,7 +40,7 @@ function Navbar() {
           </div>
           <div className="right-nav">
             <p>Hello, {user.email}</p>
-            <button onClick={signOut}>
+            <button className="border" onClick={signOut}>
               <FaGithub className="github" /> Sign out
             </button>
           </div>
@@ -67,7 +67,7 @@ function Navbar() {
             Login
           </button>
 
-          <button onClick={signInWithGithub}>
+          <button className="border" onClick={signInWithGithub}>
             <FaGithub className="github" /> Register
           </button>
         </div>

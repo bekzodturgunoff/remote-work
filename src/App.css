@@ -55,6 +55,15 @@ button {
   font-size: 1rem;
   border: none;
   border-radius: 1rem;
+  color: var(--grey);
+  background-color: transparent;
+  transition: transform 100ms ease-out;
+}
+button:active {
+  transform: scale(0.9);
+}
+.border {
+  border: 2px solid var(--grey);
 }
 
 .hero-container {
